@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS employe;
+
+CREATE TABLE employe
+(
+    id     INT AUTO_INCREMENT PRIMARY KEY,
+    prenom VARCHAR(250) NOT NULL,
+    nom    VARCHAR(250) NOT NULL,
+    email  VARCHAR(250) NOT NULL
+);
